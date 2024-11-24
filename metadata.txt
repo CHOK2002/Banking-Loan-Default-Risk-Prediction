@@ -1,0 +1,29 @@
+loan_id: Unique identifier of a loan.
+A distinct number assigned to each loan application to uniquely identify and track it within the system.
+
+age: Age of the Applicant.
+The age of the individual applying for the loan, typically measured in years. This can be an indicator of financial stability and repayment capacity.
+
+Education: Applicant Education.
+The highest level of education attained by the applicant (e.g., High School, Bachelor's, Master's). Education level can influence earning potential and loan repayment behavior.
+
+proof_submitted: Type of proof submitted.
+The documentation provided by the applicant to verify their identity, income, employment, or other relevant information required for the loan application process.
+
+loan_amount: Loan Amount Disbursed.
+The total sum of money that has been approved and disbursed to the applicant as part of the loan.
+
+asset_cost: The total asset value of the applicant.
+The combined value of all assets owned by the applicant, such as property, vehicles, investments, etc. This serves as an indicator of the applicant's financial strength and ability to repay the loan.
+
+no_of_loans: Number of loans taken by the applicant.
+The total count of loans that the applicant has taken out in the past. A higher number may indicate greater experience with borrowing or potential over-leverage.
+
+no_of_curr_loans: Number of active loans held by the applicant.
+The number of loans currently outstanding that the applicant is obligated to repay. This helps assess the applicant's current debt burden.
+
+last_delinq_none: The loan defaulted in at least one of the past loans.
+A binary indicator where 1 signifies that the applicant has defaulted on at least one previous loan, and 0 means no past defaults. This is a critical factor in assessing credit risk.
+
+loan_default (Target Variable): 0/1 indicating if an applicant will default the loan or not.
+The primary variable of interest, where 1 indicates that the applicant has defaulted on the loan, and 0 means the loan was repaid successfully. This variable is used to train predictive models for assessing future loan default risks.
